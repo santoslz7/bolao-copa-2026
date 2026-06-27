@@ -1,0 +1,25 @@
+{
+  "name": "bolao-copa-2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/runner.ts",
+    "dev": "ts-node src/runner.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "ioredis": "^5.11.1",
+    "mongodb": "^7.4.0",
+    "prisma": "^6.19.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
